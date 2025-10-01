@@ -1,0 +1,100 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+
+	background-image: url("ptrbackground.jpg");
+}
+
+
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: skyblue;;
+	max-width: 80%;
+	min-width: 600px;
+}
+
+nav ul {
+	font-size: 1.2em;
+	width: 150px;
+	list-style-type: none;
+	text-align: left;
+	padding: 20px;
+	margin: 0;
+	float: left;
+}
+
+nav a { 
+	font-weight: bold;
+	text-decoration: none;
+	color: #000033;
+}
+
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	color: white;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-color: rgb(2, 2, 46);
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+	
+}
+
+#content {
+	background-color: white;
+	margin-left: 190px;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 0.80em;
+	font-style: italic;
+	background-color: white;
+	margin-left: 190px;
+	padding: 20px 0 20px 30px;
+}
+
+span {
+	color: rgb(36, 138, 179);
+	font-weight: bold;
+}
+
+img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+#content ul {
+	list-style-image: url("marker.gif");
+	padding-left: 0;
+	list-style-position: inside;
+}
+
